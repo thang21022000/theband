@@ -183,7 +183,7 @@ html{
     filter: grayscale(90%);
 }
 
-.slider__img {
+.slider img {
     width: 100%;
 }
 
