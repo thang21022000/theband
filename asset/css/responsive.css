@@ -1,0 +1,89 @@
+/* tablet*/
+
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    
+
+    .social-media a{
+        margin: 0 8px;
+    }
+
+    .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .social-media {
+        font-size: 48px;
+        margin-right: 8px;
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 739px){
+    .header {
+        overflow: hidden;
+    }
+    .header__nav {
+        display: block;
+    }
+    .header__nav > li {
+        display: block;
+    }  
+
+    .header__nav  li  a {
+        padding: 1px 24px;
+    }  
+
+    .header__nav > li:first-child {
+        display: inline-block;
+    }
+    .header__subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    .header__nav .header__subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    .header__search-btn {
+        display: none;
+    }
+
+    .header__search-mobile-btn {
+        display: block;
+    }
+    
+    .member-img {
+        width: 60%;
+    }
+
+    .s-col-full, .s-full-width {
+        width: 100%;
+    }
+
+    .member-name {
+        padding: 8px 0;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    input[type = "Email"] {
+        margin-top: 8px;
+    }
+
+}
