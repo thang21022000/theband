@@ -183,6 +183,10 @@ html{
     filter: grayscale(90%);
 }
 
+.slider__img {
+    width: 100%;
+}
+
 .text-content{
     position: absolute;
     bottom: 48px;
